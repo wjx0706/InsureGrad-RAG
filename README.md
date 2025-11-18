@@ -9,7 +9,7 @@ This project builds an AI assistant for *Social Insurances and Housing Fund* pla
 ```text
 ├─InsureGrad-RAG
 │  ├─get_client.py            # Encapsulates the client connection to the Spark API
-│  ├─retriever_builder.py     # Builds multi-source retrievers (PDFs, databases, policy documents, etc.)
+│  ├─retriever_builder.py     # Builds multi-source retrievers
 │  ├─rag_chain.py             # Defines the RAG pipeline (retrieval, re-ranking, context concatenation)
 │  ├─conversation_manager.py  # Manages multi-turn conversation history and context memory
 │  ├─utils.py                 # Utility functions (used in app.py)
